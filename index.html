@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UV Index and Temperature for Victoria, Australia</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #map { height: 400px; }
+        .mapboxgl-popup { max-width: 200px; }
+        /* Add more styling as needed */
+    </style>
+</head>
+<body>
+    <select id="suburbSelect"></select>
+    <div id="map"></div>
+    <div id="uvInfo"></div>
+    <div id="hourlyForecast"></div>
+    <div id="dailyForecast"></div>
+    <script src="script.js" defer></script>
+</body>
+</html>
